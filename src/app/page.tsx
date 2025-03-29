@@ -1,7 +1,9 @@
+import LinkAccountButton from "./_components/link-account-button";
+
 export default async function Home() {
   return (
     <>
-      <h1>HELLO</h1>
+      <LinkAccountButton />
     </>
   );
 }
