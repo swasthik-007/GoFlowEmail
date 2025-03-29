@@ -2,6 +2,9 @@
 // import Link from "next/link";
 // export default async function Home() {
 //   return (
+
+import Link from "next/link";
+
 //     <>
 {
   /* <LinkAccountButton />
@@ -46,12 +49,12 @@ export default function Home() {
 
       {/* Privacy Policy Link */}
       <div className="mt-6">
-        <a
+        <Link
           href="/privacy-policy"
           className="text-lg font-medium text-blue-600 hover:underline"
         >
           🔒 View Privacy Policy
-        </a>
+        </Link>
       </div>
 
       {/* Footer */}
